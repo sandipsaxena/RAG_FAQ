@@ -1,0 +1,7 @@
+class Chatbot:
+    def __init__(self, faq_manager):
+        self.faq_manager = faq_manager  # Injected dependency
+
+    def ask_question(self, question):
+        answer = self.faq_manager.get_answer(question)
+        return answer

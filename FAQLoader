@@ -1,0 +1,6 @@
+from abc import ABC, abstractmethod
+
+class FAQLoader(ABC):
+    @abstractmethod
+    def load_faqs(self):
+        pass

@@ -1,4 +1,4 @@
-from RAG_FAQ_PRJ.document_loader import DocumentLoader
+from document_loader import DocumentLoader
 from openai_service import OpenAIService
 from faq_chatbot import FAQChatbot
 

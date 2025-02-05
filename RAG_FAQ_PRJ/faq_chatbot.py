@@ -1,3 +1,6 @@
+
+from boltiotai import openai
+
 class FAQChatbot:
     def __init__(self, loader, ai_service):
         self.documents = loader.documents  # Loaded documents in memory

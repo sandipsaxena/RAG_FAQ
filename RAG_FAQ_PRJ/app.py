@@ -1,8 +1,8 @@
 import streamlit as st
 import requests
 import os
-from faq_chatbot import FAQChatbot  # Import your chatbot class
-from document_loader import DocumentLoader  # Assuming you have a loader class
+from faq_chatbot import FAQChatbot  
+from document_loader import DocumentLoader  
 from boltiotai import openai
 from openai import OpenAI
 from openai_service import OpenAIService

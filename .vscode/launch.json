@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Streamlit Debug",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "c:/PythonVM/RAG_FAQ/ragvm/Scripts/streamlit.exe",
+            "args": ["run", "C:/PythonVM/RAG_FAQ/RAG_FAQ_PRJ/app.py"],
+            "console": "integratedTerminal"
+        }
+    ]
+}

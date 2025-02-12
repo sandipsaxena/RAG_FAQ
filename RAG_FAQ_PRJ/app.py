@@ -7,7 +7,7 @@ from boltiotai import openai
 from openai import OpenAI
 from openai_service import OpenAIService
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = 'xxxxx'
 
 # Set your OpenAI API key
 # Check if the OPENAI_API_KEY is loaded correctly

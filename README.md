@@ -1,4 +1,4 @@
-# FAQ Chatbot for a Company Manual Project using RAQ and Python
+# RAG GuideBot for a Company Manual Project using RAQ and Python
 
 ## Prerequisites
 

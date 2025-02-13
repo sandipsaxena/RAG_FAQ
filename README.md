@@ -1,6 +1,3 @@
-# RAG_FAQ  
-
-  
 # FAQ Chatbot for a Company Manual Project using RAQ and Python
 
 ## Prerequisites

@@ -1,10 +1,86 @@
 # RAG_FAQ  
 
-FAQ Chatbot for a Company Manual  
+  
+# FAQ Chatbot for a Company Manual Project using RAQ and Python
 
+## Prerequisites
+
+Ensure you have the following installed on your system before proceeding:
+
+- **Python 3.8 or higher**
+- **pip (Python package manager)**
+- **Visual Studio Code (VS Code)**
+- **Virtual Environment (optional but recommended)**
+
+## Downloading the Project
+
+1. **Clone the Repository:**
+   ```sh
+   git clone <repository-url>
+   cd <project-folder>
+   ```
+   *OR*
+
+2. **Download the ZIP file:**
+   - Go to the repository link.
+   - Click on **Code** and select **Download ZIP**.
+   - Extract the ZIP file and navigate to the project folder.
+
+## Setting Up the Environment
+
+It is recommended to create a virtual environment to manage dependencies.
+
+### On Windows:
+```sh
+python -m venv venv
+venv\Scripts\activate
+```
+
+### On macOS/Linux:
+```sh
+python -m venv venv
+source venv/Scripts/activate
+```
+
+## Installing Dependencies
+
+After activating the virtual environment, install the required Python packages:
+```sh
+pip install -r requirements.txt
+```
+
+## Running the Chatbot
+
+### Using VS Code (Recommended)
+1. Open the project folder in VS Code.
+2. Ensure the `launch.json` file is correctly set up.
+3. Press `F5` to launch the application, which will start `app.py`.
+
+### Using the Command Line
+Execute the following command to start the chatbot:
+```sh
+python app.py
+```
+
+## Configuration
+
+- Create a `.env` file in the project and add:
+  ```sh
+  OPENAI_API_KEY=your_key
+  ```
+
+## Troubleshooting
+
+- If you encounter missing dependencies, ensure you are using the correct Python version and try reinstalling:
+  ```sh
+  pip install -r requirements.txt --upgrade
+  ```
+- Check error logs in `logs/` for debugging issues.
+
+## Document
 For now, I have added some Keynotes And Characteristics[of Homeopathic Medicine] With Comparisons of some of the Leading Remedies of the Materia Medica by Henry Clay Allen, M. D.  
 
-For example:  
+## Example:  
 
 your question: uses of Ruta Graveolens  
 
